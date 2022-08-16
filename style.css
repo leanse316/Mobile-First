@@ -156,6 +156,20 @@ main{
     background-repeat: no-repeat;
 }
 /*Iconos de Red y Green*/
+.main-tables-container{
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+.main-tables-container::-webkit-scrollbar{
+    background-color: var(--soft-orange);
+    height: 3px;
+}
+.main-tables-container::-webkit-scrollbar-thumb{
+    background-color: var(--bitcoin-orange);
+}
 .main-currency-table,.main-second-table{
     width: 70%;
     min-width: 235px;

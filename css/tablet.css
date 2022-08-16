@@ -1,0 +1,18 @@
+.main-tables-container{
+    overflow-x: hidden;
+    width: 768px;
+    margin: 0 auto;
+}
+.product-cards--container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 768px;
+    margin: 0 auto;
+}
+.plans-container--slider{
+    overflow-x: hidden;
+    justify-content: center;
+}
+.plans-container--card, .plans-container--card2, .plans-container--card3{
+    margin-top: 25px;
+}
